@@ -7,7 +7,8 @@
     "start": "ng serve -o --host 0.0.0.0",
     "build": "ng build",
     "lint": "ng lint",
-    "setup": "cpx ../../lib/**/*.* src/assets/webviewer && cpx ../files/**/*.* src/assets/docs"
+    "setup": "cpx ../../lib/**/*.* src/assets/webviewer && cpx ../files/**/*.* src/assets/docs",
+    "cypress:open": "cypress open"
   },
   "private": true,
   "dependencies": {
@@ -31,6 +32,7 @@
     "@types/node": "~6.0.60",
     "codelyzer": "~3.2.0",
     "cpx": "^1.5.0",
+    "cypress": "^3.1.0",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.3.3"
